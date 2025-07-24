@@ -22,3 +22,5 @@ Global
 		SolutionGuid = {9AE8C919-20B7-429C-9A6C-89B75871919D}
 	EndGlobalSection
 EndGlobal
+
+dotnet aspnet-codegenerator controller -name AccountController -m DemoMVC.Models.Account -dc DemoMVC.Data.ApplicationDbContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries --databaseProvider sqlite
